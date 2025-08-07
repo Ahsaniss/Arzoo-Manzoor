@@ -1,0 +1,342 @@
+import { CyberCard, CyberCardContent, CyberCardDescription, CyberCardHeader, CyberCardTitle } from "@/components/ui/cyber-card"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Calendar, ExternalLink, Award, Shield, Code, Database } from "lucide-react"
+import Navigation from "@/components/Navigation"
+import Footer from "@/components/Footer"
+import { Cpu } from "lucide-react"; // Or any other valid icon
+
+
+type Certificate = {
+  id: number;
+  title: string;
+  issuer: string;
+  date: string;
+  status: string;
+  description: string;
+  image?: string | null;
+  pdf?: string;
+  skills: string[];
+  category: string;
+  color: string;
+  icon: any;
+};
+
+const certificates: Certificate[] = [
+    {
+        id: 1,
+        title: "Cybersecurity Awareness: Cybersecurity Terminology",
+        issuer: "LinkedIn",
+        date: "2024",
+        status: "Completed",
+        description: "Comprehensive cybersecurity fundamentals covering network security, compliance, operational security, threats and vulnerabilities.",
+        image: null, // Direct image URL
+        pdf: "https://drive.google.com/file/d/1B9hVgat9zQkvxRHuzfE-QWVJreZyZtus/view?usp=sharing",
+        skills: ["Network Security", "Risk Assessment", "Incident Response", "Cybersecurity Fundamentals"],
+        category: "Cybersecurity",
+        color: "bg-red-500/10 text-red-400 border-red-400/30",
+        icon: Shield
+    },
+    {
+        id: 2,
+        title: "Project Management Certificate",
+        issuer: "Project Management Institute (PMI)",
+        date: "2024",
+        status: "Completed",
+        description: "Professional project management certification covering project lifecycle, risk management, and team leadership.",
+        image: null, // No preview image available
+        pdf: "/certificates/Project Management Institute (PMI)®.pdf",
+        skills: ["Project Management", "Risk Management", "Team Leadership", "Agile Methodology"],
+        category: "Project Management",
+        color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
+        icon: Award
+    },
+    {
+        id: 3,
+        title: "Simplilearn Certificate",
+        issuer: "Simplilearn",
+        date: "2024",
+        status: "Completed",
+        description: "Professional development certificate covering digital skills and technology fundamentals.",
+        image: null, // No preview image available
+        pdf: "/certificates/Simplilearn Certificate.pdf",
+        skills: ["Digital Skills", "Technology Fundamentals", "Professional Development"],
+        category: "Professional Development",
+        color: "bg-green-500/10 text-green-400 border-green-400/30",
+        icon: Database
+    },
+    {
+        id: 4,
+        title: "LinkedIn Learning Certificate",
+        issuer: "LinkedIn Learning",
+        date: "2024",
+        status: "Completed",
+        description: "Comprehensive learning certificate covering professional skills and technology development.",
+        image: null, // No preview image available
+        pdf: "/certificates/LinkedIn Learning Certificate.pdf",
+        skills: ["Professional Skills", "Technology Development", "Online Learning"],
+        category: "Professional Development",
+        color: "bg-purple-500/10 text-purple-400 border-purple-400/30",
+        icon: Code
+    },
+    {
+        id: 5,
+        title: "UC Certificate Series 1",
+        issuer: "UC Education",
+        date: "2024",
+        status: "Completed",
+        description: "University certificate program covering advanced technical skills and methodologies.",
+        image: null, // No preview image available
+        pdf: "/certificates/UC-5e25101c-bc28-4c85-b9a6-68d0be27f05a.pdf",
+        skills: ["Technical Skills", "Advanced Methodologies", "University Level"],
+        category: "Education",
+        color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
+        icon: Award
+    },
+    {
+        id: 6,
+        title: "UC Certificate Series 2",
+        issuer: "UC Education",
+        date: "2024",
+        status: "Completed",
+        description: "Advanced university certificate program in specialized technical domains.",
+        image: null, // No preview image available
+        pdf: "/certificates/UC-734a9594-0a85-4064-8579-333c148bbcc7.pdf",
+        skills: ["Specialized Domains", "Advanced Technical Skills", "Research Methods"],
+        category: "Education",
+        color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
+        icon: Award
+    },
+   
+  
+    
+    {
+  id: 7,
+  title: "Career Essentials in Cybersecurity",
+  issuer: "Microsoft and LinkedIn Learning",
+  date: "2025-08-04",
+  status: "Completed",
+  description: "Completed the Career Essentials in Cybersecurity learning path on LinkedIn Learning by Microsoft, covering core skills in cybersecurity and threat management.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1SHwpLScthH3w3-HDdeE-VP6WYHLZRFsM/view?usp=sharing", // Add the certificate link here if you have it
+  skills: ["Cybersecurity", "Threat & Vulnerability Management"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+},
+
+
+   {
+  id: 8,
+ title: "Introduction to Artificial Intelligence",
+  issuer: "Simplilearn SkillÚP",
+  date: "2024-09-02",
+  status: "Completed",
+  description: "Completed the online course on Introduction to Artificial Intelligence.",
+  image: null,
+ 
+  pdf: "https://drive.google.com/file/d/1Y2ouAD-Vt0VLD0lEnh8G2RHl6RyzrL5v/view?usp=sharing",
+  skills: ["Artificial Intelligence"],
+  category: "Artificial Intelligence",
+  color: "bg-indigo-500/10 text-indigo-400 border-indigo-400/30",
+  icon: Cpu
+},
+{
+  id: 9,
+  title: "Bash Scripting for Linux Security",
+  issuer: "Udemy",
+  date: "2025-07-06",
+  status: "Completed",
+  description: "Completed the course 'Bash Scripting for Linux Security' instructed by Frank Anemaet on Udemy.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1HSrwSnOui-UtPLRswaRfKycUKRS84OBT/view?usp=sharing",
+  skills: ["Bash Scripting", "Linux Security"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+},
+
+];
+
+const getStatusBadge = (status: string) => {
+  switch (status) {
+    case "Completed":
+      return <Badge className="bg-green-500/20 text-green-400 border-green-400/30">Completed</Badge>;
+    case "In Progress":
+      return <Badge className="bg-blue-500/20 text-blue-400 border-blue-400/30">In Progress</Badge>;
+    case "Planned":
+      return <Badge className="bg-yellow-500/20 text-yellow-400 border-yellow-400/30">Planned</Badge>;
+    default:
+      return <Badge variant="outline">{status}</Badge>;
+  }
+};
+
+const categories = [...new Set(certificates.map(cert => cert.category))];
+
+function Certificates() {
+  return (
+    <>
+      <Navigation />
+      <div className="min-h-screen bg-background pt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <div className="flex items-center justify-center mb-6">
+              <div className="p-3 bg-primary/10 rounded-full">
+                <Award className="h-12 w-12 text-primary" />
+              </div>
+            </div>
+            <h1 className="text-5xl font-bold text-foreground mb-4">
+              Certifications & <span className="text-primary">Achievements</span>
+            </h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              A comprehensive collection of my professional certifications, courses, and achievements 
+              in cybersecurity, web development, and mathematics.
+            </p>
+          </div>
+
+          {/* Category Filter */}
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            {categories.map((category, index) => (
+              <Button
+                key={index}
+                variant="outline"
+                className="border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
+              >
+                {category}
+              </Button>
+            ))}
+          </div>
+
+          {/* Certificates Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {certificates.map((cert) => {
+              const IconComponent = cert.icon;
+              return (
+                <CyberCard key={cert.id} className="group hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/10">
+                  <CyberCardHeader className="relative">
+                    <div className="w-full h-48 bg-gradient-to-br from-muted to-muted/50 rounded-lg mb-4 flex items-center justify-center border border-border overflow-hidden relative">
+                      {cert.image ? (
+                        <img 
+                          src={cert.image}
+                          alt={cert.title}
+                          className="object-cover h-full w-full"
+                          loading="lazy"
+                          onError={(e) => {
+                            e.currentTarget.style.display = 'none';
+                            const fallback = e.currentTarget.parentElement?.querySelector('.fallback-preview') as HTMLElement;
+                            if (fallback) fallback.style.display = 'flex';
+                          }}
+                        />
+                      ) : null}
+                      <div className={`flex flex-col items-center justify-center text-muted-foreground absolute inset-0 fallback-preview${cert.image ? '' : ' flex'}`} style={{display: cert.image ? 'none' : 'flex'}}>
+                        <IconComponent className="h-16 w-16 mb-2" />
+                        <span className="text-sm text-center px-4">Certificate Preview</span>
+                      </div>
+                      {cert.pdf && (
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="absolute bottom-2 right-2 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
+                          onClick={() => window.open(cert.pdf, "_blank")}
+                        >
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          View PDF
+                        </Button>
+                      )}
+                    </div>
+                    <div className="flex items-start justify-between mb-2">
+                      <div className="flex-1">
+                        <CyberCardTitle className="text-xl text-foreground group-hover:text-primary transition-colors">
+                          {cert.title}
+                        </CyberCardTitle>
+                        <p className="text-primary font-semibold">{cert.issuer}</p>
+                      </div>
+                      {getStatusBadge(cert.status)}
+                    </div>
+                    <div className="flex items-center text-muted-foreground text-sm mb-4">
+                      <Calendar className="h-4 w-4 mr-2" />
+                      {cert.date}
+                    </div>
+                  </CyberCardHeader>
+                  <CyberCardContent className="space-y-4">
+                    <CyberCardDescription className="text-sm leading-relaxed">
+                      {cert.description}
+                    </CyberCardDescription>
+                    <div className="space-y-3">
+                      <h4 className="font-semibold text-foreground text-sm">Skills Covered:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {cert.skills.map((skill, skillIndex) => (
+                          <Badge 
+                            key={skillIndex} 
+                            variant="outline" 
+                            className={`${cert.color} text-xs`}
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  </CyberCardContent>
+                </CyberCard>
+              );
+            })}
+          </div>
+
+          {/* Stats Section */}
+          <div className="mt-20 grid md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-primary mb-2">
+                {certificates.filter(c => c.status === "Completed").length}
+              </div>
+              <p className="text-muted-foreground">Completed</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-400 mb-2">
+                {certificates.filter(c => c.status === "In Progress").length}
+              </div>
+              <p className="text-muted-foreground">In Progress</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-yellow-400 mb-2">
+                {certificates.filter(c => c.status === "Planned").length}
+              </div>
+              <p className="text-muted-foreground">Planned</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-green-400 mb-2">
+                {categories.length}
+              </div>
+              <p className="text-muted-foreground">Categories</p>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="mt-20 text-center">
+            <CyberCard className="p-8 bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20">
+              <CyberCardContent>
+                <h3 className="text-2xl font-bold text-foreground mb-4">
+                  Continuous Learning Journey
+                </h3>
+                <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+                  I'm committed to staying current with the latest cybersecurity threats, 
+                  web development frameworks, and mathematical concepts through continuous 
+                  certification and professional development.
+                </p>
+                <Button 
+                  className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800"
+                >
+                  <Shield className="mr-2 h-5 w-5" />
+                  View Learning Path
+                </Button>
+              </CyberCardContent>
+            </CyberCard>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+}
+
+export default Certificates;
