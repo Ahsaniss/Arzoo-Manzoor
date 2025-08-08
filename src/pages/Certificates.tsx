@@ -1,7 +1,7 @@
 import { CyberCard, CyberCardContent, CyberCardDescription, CyberCardHeader, CyberCardTitle } from "@/components/ui/cyber-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, ExternalLink, Award, Shield, Code, Database } from "lucide-react"
+import { Calendar, ExternalLink, Award, Shield, Code, Database, Briefcase, BarChart } from "lucide-react"
 import Navigation from "@/components/Navigation"
 import Footer from "@/components/Footer"
 import { Cpu } from "lucide-react"; // Or any other valid icon
@@ -27,7 +27,7 @@ const certificates: Certificate[] = [
         id: 1,
         title: "Cybersecurity Awareness: Cybersecurity Terminology",
         issuer: "LinkedIn",
-        date: "2024",
+        date: "2025",
         status: "Completed",
         description: "Comprehensive cybersecurity fundamentals covering network security, compliance, operational security, threats and vulnerabilities.",
         image: null, // Direct image URL
@@ -41,7 +41,7 @@ const certificates: Certificate[] = [
         id: 2,
         title: "Project Management Certificate",
         issuer: "Project Management Institute (PMI)",
-        date: "2024",
+        date: "2025",
         status: "Completed",
         description: "Professional project management certification covering project lifecycle, risk management, and team leadership.",
         image: null, // No preview image available
@@ -55,7 +55,7 @@ const certificates: Certificate[] = [
         id: 3,
         title: "Simplilearn Certificate",
         issuer: "Simplilearn",
-        date: "2024",
+        date: "2025",
         status: "Completed",
         description: "Professional development certificate covering digital skills and technology fundamentals.",
         image: null, // No preview image available
@@ -69,7 +69,7 @@ const certificates: Certificate[] = [
         id: 4,
         title: "LinkedIn Learning Certificate",
         issuer: "LinkedIn Learning",
-        date: "2024",
+        date: "2025",
         status: "Completed",
         description: "Comprehensive learning certificate covering professional skills and technology development.",
         image: null, // No preview image available
@@ -83,7 +83,7 @@ const certificates: Certificate[] = [
         id: 5,
         title: "UC Certificate Series 1",
         issuer: "UC Education",
-        date: "2024",
+        date: "2025",
         status: "Completed",
         description: "University certificate program covering advanced technical skills and methodologies.",
         image: null, // No preview image available
@@ -97,7 +97,7 @@ const certificates: Certificate[] = [
         id: 6,
         title: "UC Certificate Series 2",
         issuer: "UC Education",
-        date: "2024",
+        date: "2025",
         status: "Completed",
         description: "Advanced university certificate program in specialized technical domains.",
         image: null, // No preview image available
@@ -130,7 +130,7 @@ const certificates: Certificate[] = [
   id: 8,
  title: "Introduction to Artificial Intelligence",
   issuer: "Simplilearn SkillÚP",
-  date: "2024-09-02",
+  date: "2025-09-02",
   status: "Completed",
   description: "Completed the online course on Introduction to Artificial Intelligence.",
   image: null,
@@ -155,6 +155,50 @@ const certificates: Certificate[] = [
   color: "bg-red-500/10 text-red-400 border-red-400/30",
   icon: Shield
 },
+{
+  id: 10,
+  title: "JavaScript Internship",
+  issuer: "INTERWARE (Pvt.) Ltd.",
+  date: "2025-02-01 to 2025-04-30",
+  status: "Completed",
+  description: "Served as a JavaScript Intern, developing and enhancing front-end features using modern JavaScript frameworks, solving complex problems, collaborating with cross-functional teams, and consistently delivering high-quality results.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1SEOPkqhJeK1vJNKxv-0wHVEOume0ztIe/view?usp=sharing", // Replace with actual file link if uploaded
+  skills: ["JavaScript", "Front-End Development", "Problem Solving", "Team Collaboration"],
+  category: "Professional Experience",
+  color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
+  icon: Briefcase
+},
+{
+  id: 11,
+  title: "R Programming for Data Science",
+  issuer: "Cursa (by Geeks Lesson)",
+  date: "2024-08-29 to 2024-08-31",
+  status: "Completed",
+  description: "Completed the 'R Programming for Data Science' course on Cursa, covering fundamental concepts and applications of R for data analysis and visualization.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa link
+  skills: ["R Programming", "Data Science", "Data Analysis", "Data Visualization"],
+  category: "Data Science",
+  color: "bg-green-500/10 text-green-400 border-green-400/30",
+  icon: BarChart
+},
+{
+  id: 12,
+  title: "Cyber Security",
+  issuer: "Cursa (by Packethacks)",
+  date: "2025-02-14",
+  status: "Completed",
+  description: "Completed the 'Cyber Security' course on Cursa by Packethacks, gaining knowledge in core cybersecurity concepts and practices.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
+  skills: ["Cybersecurity", "Network Security", "Threat Analysis"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+}
+
+
 
 ];
 
