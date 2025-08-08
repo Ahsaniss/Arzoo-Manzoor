@@ -283,33 +283,7 @@ function Certificates() {
             })}
           </div>
 
-          {/* Stats Section */}
-          <div className="mt-20 grid md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">
-                {certificates.filter(c => c.status === "Completed").length}
-              </div>
-              <p className="text-muted-foreground">Completed</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-400 mb-2">
-                {certificates.filter(c => c.status === "In Progress").length}
-              </div>
-              <p className="text-muted-foreground">In Progress</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-yellow-400 mb-2">
-                {certificates.filter(c => c.status === "Planned").length}
-              </div>
-              <p className="text-muted-foreground">Planned</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-green-400 mb-2">
-                {categories.length}
-              </div>
-              <p className="text-muted-foreground">Categories</p>
-            </div>
-          </div>
+       
 
           {/* Call to Action */}
           <div className="mt-20 text-center">
