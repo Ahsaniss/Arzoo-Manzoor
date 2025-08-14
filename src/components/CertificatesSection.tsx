@@ -113,9 +113,7 @@ const CertificatesSection = () => {
 
         {/* Stats & CTA */}
         <div className="grid md:grid-cols-2 gap-8">
-         
-
-          {/* Call to Action */}
+          {/* View All Certificates Card */}
           <CyberCard className="p-6 bg-gradient-to-br from-secondary/20 to-secondary/10">
             <CyberCardContent>
               <h3 className="text-xl font-bold text-foreground mb-2">View All Certificates</h3>
@@ -123,12 +121,44 @@ const CertificatesSection = () => {
                 Explore my complete certification portfolio including detailed descriptions, 
                 skills covered, and achievement dates.
               </p>
-              <Button 
+              <Button
                 className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800"
-                onClick={() => navigate('/certificates')}
+                onClick={() => {
+                  navigate('/certificates');
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
               >
                 View Complete Portfolio
                 <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </CyberCardContent>
+          </CyberCard>
+
+          {/* Certificate Companies Card */}
+          <CyberCard className="p-6 bg-gradient-to-br from-primary/10 to-primary/5">
+            <CyberCardContent>
+              <h3 className="text-xl font-bold text-foreground mb-2">Certificate Providers</h3>
+              <p className="text-muted-foreground mb-4 text-sm">
+                My certifications are issued by leading organizations in the industry:
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <Badge className="bg-blue-500/20 text-blue-600 border-blue-400/30">Microsoft</Badge>
+                <Badge className="bg-blue-400/20 text-blue-500 border-blue-300/30">LinkedIn</Badge>
+                <Badge className="bg-green-500/20 text-green-600 border-green-400/30">EC-Council</Badge>
+                <Badge className="bg-yellow-500/20 text-yellow-600 border-yellow-400/30">PMI</Badge>
+                <Badge className="bg-purple-500/20 text-purple-600 border-purple-400/30">Simplilearn</Badge>
+                <Badge className="bg-gray-500/20 text-gray-600 border-gray-400/30">Meta</Badge>
+                {/* Add more as needed */}
+              </div>
+              <Button 
+                className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/80 hover:to-primary"
+                onClick={() => {
+                  navigate('/certificates');
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
+                See All Providers
+                <ExternalLink className="ml-2 h-4 w-4" />
               </Button>
             </CyberCardContent>
           </CyberCard>
