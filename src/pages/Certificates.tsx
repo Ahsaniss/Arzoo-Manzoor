@@ -1,7 +1,7 @@
 import { CyberCard, CyberCardContent, CyberCardDescription, CyberCardHeader, CyberCardTitle } from "@/components/ui/cyber-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, ExternalLink, Award, Shield, Code, Database, Briefcase, BarChart } from "lucide-react"
+import { Calendar, ExternalLink, Award, Shield, Code, Database, Briefcase, BarChart, Languages, Users } from "lucide-react"
 import Navigation from "@/components/Navigation"
 import Footer from "@/components/Footer"
 import { Cpu } from "lucide-react"; // Or any other valid icon
@@ -238,7 +238,52 @@ const certificates: Certificate[] = [
   category: "Data Science",
   color: "bg-green-500/10 text-green-400 border-green-400/30",
   icon: BarChart
+},
+{
+  id: 16,
+  title: "Python",
+  issuer: "Cursa (by Thenewboston)",
+  date: "2024-07-05 to 2024-07-09",
+  status: "Completed",
+  description: "Completed the 'Python' course on Cursa by Thenewboston, covering Python programming fundamentals and core concepts.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
+  skills: ["Python", "Programming Fundamentals"],
+  category: "Programming",
+  color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
+  icon: Code
+},
+{
+  id: 17,
+  title: "Korean Full Course",
+  issuer: "Cursa (by Yonsei University)",
+  date: "2025-06-18",
+  status: "Completed",
+  description: "Completed the 'Korean Full Course' on Cursa by Yonsei University, covering essential Korean language skills and cultural understanding.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
+  skills: ["Korean Language", "Cultural Awareness"],
+  category: "Languages",
+  color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
+  icon: Languages
+},
+{
+  id: 18,
+  title: "Effective Leadership",
+  issuer: "HP LIFE (HP Foundation)",
+  date: "2025-02-13",
+  status: "Completed",
+  description: "Completed the HP LIFE online course 'Effective Leadership', learning about the importance of effective leadership, leveraging different leadership strategies, and understanding the role of ethics in leadership.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive link
+  skills: ["Leadership", "Ethics in Leadership", "Leadership Strategies"],
+  category: "Leadership",
+  color: "bg-purple-500/10 text-purple-400 border-purple-400/30",
+  icon: Users
 }
+
+
+
 
 
 
