@@ -224,7 +224,22 @@ const certificates: Certificate[] = [
   category: "Cybersecurity",
   color: "bg-red-500/10 text-red-400 border-red-400/30",
   icon: Shield
+},
+{
+  id: 15,
+  title: "Data Science & Analytics",
+  issuer: "HP LIFE (HP Foundation)",
+  date: "2025-01-17",
+  status: "Completed",
+  description: "Completed the HP LIFE online course 'Data Science & Analytics', covering leading practices, methodologies, and tools in the field, exploring the benefits and challenges of a data-driven approach for businesses, and gaining knowledge about essential skills for a career in data science.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual certificate link
+  skills: ["Data Science", "Data Analytics", "Data-Driven Decision Making"],
+  category: "Data Science",
+  color: "bg-green-500/10 text-green-400 border-green-400/30",
+  icon: BarChart
 }
+
 
 
 
