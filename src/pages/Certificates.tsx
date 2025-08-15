@@ -196,7 +196,22 @@ const certificates: Certificate[] = [
   category: "Cybersecurity",
   color: "bg-red-500/10 text-red-400 border-red-400/30",
   icon: Shield
+},
+{
+  id: 13,
+  title: "Microsoft Security Essentials Professional Certificate",
+  issuer: "Microsoft and LinkedIn Learning",
+  date: "2025-08-15",
+  status: "Completed",
+  description: "Completed the Microsoft Security Essentials Professional Certificate learning path on LinkedIn Learning, covering Microsoft Security, Governance, Risk Management, Compliance (GRC), and Cloud Security.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1hb7Yy_EbedTjiwQyL0rWSLq6dTPQx848/view?usp=sharing", // Replace with actual certificate link
+  skills: ["Microsoft Security", "Governance, Risk Management, and Compliance (GRC)", "Cloud Security"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
 }
+
 
 
 
