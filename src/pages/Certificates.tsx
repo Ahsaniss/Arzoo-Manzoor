@@ -1,7 +1,7 @@
 import { CyberCard, CyberCardContent, CyberCardDescription, CyberCardHeader, CyberCardTitle } from "@/components/ui/cyber-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, ExternalLink, Award, Shield, Code, Database, Briefcase, BarChart, Languages, Users } from "lucide-react"
+import { Calendar, ExternalLink, Award, Shield, Code, Database, Briefcase, BarChart, Languages, Users, BookOpen } from "lucide-react"
 import Navigation from "@/components/Navigation"
 import Footer from "@/components/Footer"
 import { Cpu } from "lucide-react"; // Or any other valid icon
@@ -52,19 +52,20 @@ const certificates: Certificate[] = [
         icon: Award
     },
     {
-        id: 3,
-        title: "Introduction to Artificial Intelligence",
-        issuer: "Simplilearn",
-        date: "2025",
-        status: "Completed",
-        description: "Professional development certificate covering digital skills and technology fundamentals.",
-        image: null, // No preview image available
-        pdf: "/certificates/Simplilearn Certificate.pdf",
-        skills: ["Digital Skills", "Technology Fundamentals", "Professional Development"],
-        category: "Professional Development",
-        color: "bg-green-500/10 text-green-400 border-green-400/30",
-        icon: Database
-    },
+  id: 3,
+  title: "Korean Full Course",
+  issuer: "Yonsei University",
+  date: "2025-06-18",
+  status: "Completed",
+  description: "Completed the Korean Full Course offered by Yonsei University, covering comprehensive Korean language learning. Total duration: 4 hours 21 minutes.",
+  image: null, // Can add certificate preview image if available
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive link
+  skills: ["Korean Language", "Linguistics", "Cultural Understanding"],
+  category: "Language",
+  color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
+  icon: BookOpen
+},
+
     {
         id: 4,
         title: "Cybersecurity Threat Landscape",
