@@ -281,7 +281,23 @@ const certificates: Certificate[] = [
   category: "Leadership",
   color: "bg-purple-500/10 text-purple-400 border-purple-400/30",
   icon: Users
+},
+  {
+  id: 19,
+  title: "HTML Certification Test - YouTube",
+  issuer: "KNOWLEDGEGATE",
+  date: "2025", // Add exact date if available
+  status: "Completed",
+  description: "Successfully completed the HTML Certification Test on YouTube, demonstrating proficiency in HTML concepts.",
+  image: null, // Add certificate preview image if available
+  pdf: "https://drive.google.com/file/d/1qILjryxYQvmvgs3j4FRRo7k8uRj9Hm0V/view?usp=sharing", // Replace with actual Google Drive link
+  skills: ["HTML", "Web Development", "Frontend Basics"],
+  category: "Web Development",
+  color: "bg-green-500/10 text-green-400 border-green-400/30",
+  icon: Code,
+  verify: "Main/certificate/12122410"
 }
+
 
 
 
@@ -449,5 +465,6 @@ function Certificates() {
 }
 
 export default Certificates;
+
 
 
