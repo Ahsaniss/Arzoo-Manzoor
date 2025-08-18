@@ -186,16 +186,16 @@ const certificates: Certificate[] = [
 },
 {
   id: 12,
-  title: "Cyber Security",
+  title: "HTML by EJ Media",
   issuer: "Cursa (by Packethacks)",
   date: "2025-02-14",
   status: "Completed",
-  description: "Completed the 'Cyber Security' course on Cursa by Packethacks, gaining knowledge in core cybersecurity concepts and practices.",
+  description: "Completed the 'HTML by EJ Media' course on Cursa by Packethacks, gaining knowledge in core HTML concepts and practices.",
   image: null,
   pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
-  skills: ["Cybersecurity", "Network Security", "Threat Analysis"],
-  category: "Cybersecurity",
-  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  skills: ["HTML", "Web Development", "Front-End Development"],
+  category: "Web Development",
+  color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
   icon: Shield
 },
 {
