@@ -95,8 +95,8 @@ const certificates: Certificate[] = [
     },
     {
         id: 6,
-        title: "UC Certificate Series 2",
-        issuer: "UC Education",
+        title: "Information & Cyber Security Basics- IT Support Technicians",
+        issuer: "Udemy",
         date: "2025",
         status: "Completed",
         description: "Advanced university certificate program in specialized technical domains.",
