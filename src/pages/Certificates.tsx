@@ -25,7 +25,7 @@ type Certificate = {
 const certificates: Certificate[] = [
     {
         id: 1,
-        title: "Cybersecurity Awareness: Cybersecurity Terminology",
+        title: "Cybersecurity Foundations",
         issuer: "LinkedIn",
         date: "2025",
         status: "Completed",
@@ -53,7 +53,7 @@ const certificates: Certificate[] = [
     },
     {
         id: 3,
-        title: "Simplilearn Certificate",
+        title: "Introduction to artificial Intelligence",
         issuer: "Simplilearn",
         date: "2025",
         status: "Completed",
