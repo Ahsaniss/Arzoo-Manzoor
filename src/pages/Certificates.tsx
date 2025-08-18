@@ -67,7 +67,7 @@ const certificates: Certificate[] = [
     },
     {
         id: 4,
-        title: "LinkedIn Learning Certificate",
+        title: "Cybersecurity Threat Landscape",
         issuer: "LinkedIn Learning",
         date: "2025",
         status: "Completed",
@@ -81,8 +81,8 @@ const certificates: Certificate[] = [
     },
     {
         id: 5,
-        title: "UC Certificate Series 1",
-        issuer: "UC Education",
+        title: "Linux Bash Scripting",
+        issuer: "Udemy",
         date: "2025",
         status: "Completed",
         description: "University certificate program covering advanced technical skills and methodologies.",
