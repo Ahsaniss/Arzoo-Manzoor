@@ -43,7 +43,7 @@ const certificates: Certificate[] = [
         issuer: "LinkedIn",
         date: "2025",
         status: "Completed",
-        description: "Professional project management certification covering project lifecycle, risk management, and team leadership.",
+        description: "Introduction to essential cybersecurity concepts and terminology, covering threats, vulnerabilities, risk management, and best practices for protecting digital assets.",
         image: null, // No preview image available
         pdf: "https://drive.google.com/file/d/1B9hVgat9zQkvxRHuzfE-QWVJreZyZtus/view?usp=sharing",
         skills: ["Project Management", "Risk Management", "Team Leadership", "Agile Methodology"],
@@ -53,7 +53,7 @@ const certificates: Certificate[] = [
     },
     {
         id: 3,
-        title: "Introduction to artificial Intelligence",
+        title: "Introduction to Artificial Intelligence",
         issuer: "Simplilearn",
         date: "2025",
         status: "Completed",
