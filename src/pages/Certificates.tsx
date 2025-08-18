@@ -256,14 +256,14 @@ const certificates: Certificate[] = [
 },
 {
   id: 17,
-  title: "Korean Full Course",
+  title: "Python by Thenewboston",
   issuer: "Cursa (by Yonsei University)",
   date: "2025-06-18",
   status: "Completed",
-  description: "Completed the 'Korean Full Course' on Cursa by Yonsei University, covering essential Korean language skills and cultural understanding.",
+  description: "Completed the 'Python by Thenewboston' course on Cursa by Yonsei University, covering essential Python programming skills and concepts.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
-  skills: ["Korean Language", "Cultural Awareness"],
+  pdf: "https://drive.google.com/file/d/1nO1-azcKIdySOZaxUqUeipdiVe-Zd_LL/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
+  skills: ["Python", "Programming Fundamentals", "Software Development"],
   category: "Languages",
   color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
   icon: Languages
@@ -276,7 +276,7 @@ const certificates: Certificate[] = [
   status: "Completed",
   description: "Completed the HP LIFE online course 'Effective Leadership', learning about the importance of effective leadership, leveraging different leadership strategies, and understanding the role of ethics in leadership.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive link
+  pdf: "https://drive.google.com/file/d/1qFf2xJAJLL54n5S5BD1GYdnUEKQxGajl/view?usp=sharing", // Replace with actual Google Drive link
   skills: ["Leadership", "Ethics in Leadership", "Leadership Strategies"],
   category: "Leadership",
   color: "bg-purple-500/10 text-purple-400 border-purple-400/30",
