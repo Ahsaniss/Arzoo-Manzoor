@@ -178,7 +178,7 @@ const certificates: Certificate[] = [
   status: "Completed",
   description: "Completed the 'R Programming for Data Science' course on Cursa, covering fundamental concepts and applications of R for data analysis and visualization.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa link
+  pdf: "https://drive.google.com/file/d/1vX9VjicK0g_dUha0flbwD4iDmRYEwses/view?usp=sharing", // Replace with actual Google Drive or Cursa link
   skills: ["R Programming", "Data Science", "Data Analysis", "Data Visualization"],
   category: "Data Science",
   color: "bg-green-500/10 text-green-400 border-green-400/30",
@@ -192,7 +192,7 @@ const certificates: Certificate[] = [
   status: "Completed",
   description: "Completed the 'HTML by EJ Media' course on Cursa by Packethacks, gaining knowledge in core HTML concepts and practices.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
+  pdf: "https://drive.google.com/file/d/1bzje571z28VK8lUXONC_H_lZpV7Rzicx/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
   skills: ["HTML", "Web Development", "Front-End Development"],
   category: "Web Development",
   color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
