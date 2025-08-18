@@ -220,7 +220,7 @@ const certificates: Certificate[] = [
   status: "Completed",
   description: "Completed the HP LIFE online course 'Introduction to Cybersecurity Awareness', learning about common cybersecurity threats and basic strategies to protect online data and information.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual certificate link
+  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", //with actual certificate link
   skills: ["Cybersecurity Awareness", "Data Protection", "Threat Identification"],
   category: "Cybersecurity",
   color: "bg-red-500/10 text-red-400 border-red-400/30",
