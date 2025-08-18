@@ -31,7 +31,7 @@ const certificates: Certificate[] = [
         status: "Completed",
         description: "Comprehensive cybersecurity fundamentals covering network security, compliance, operational security, threats and vulnerabilities.",
         image: null, // Direct image URL
-        pdf: "https://drive.google.com/file/d/1B9hVgat9zQkvxRHuzfE-QWVJreZyZtus/view?usp=sharing",
+        pdf: "https://drive.google.com/file/d/1HQ1CXV7QFXK5XWN3SLQLBKH_IKVWEeGb/view?usp=sharing",
         skills: ["Network Security", "Risk Assessment", "Incident Response", "Cybersecurity Fundamentals"],
         category: "Cybersecurity",
         color: "bg-red-500/10 text-red-400 border-red-400/30",
@@ -59,7 +59,7 @@ const certificates: Certificate[] = [
   status: "Completed",
   description: "Completed the Korean Full Course offered by Yonsei University, covering comprehensive Korean language learning. Total duration: 4 hours 21 minutes.",
   image: null, // Can add certificate preview image if available
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive link
+  pdf: "https://drive.google.com/file/d/1Yd86-4LTp7KoO-G6L8RN4Rivxrg0P5If/view?usp=sharing", // Replace with actual Google Drive link
   skills: ["Korean Language", "Linguistics", "Cultural Understanding"],
   category: "Language",
   color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
@@ -449,3 +449,4 @@ function Certificates() {
 }
 
 export default Certificates;
+
