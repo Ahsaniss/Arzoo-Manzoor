@@ -39,13 +39,13 @@ const certificates: Certificate[] = [
     },
     {
         id: 2,
-        title: "Project Management Certificate",
-        issuer: "Project Management Institute (PMI)",
+        title: "Cybersecurity Awareness: Cybersecurity Terminology",
+        issuer: "LinkedIn",
         date: "2025",
         status: "Completed",
         description: "Professional project management certification covering project lifecycle, risk management, and team leadership.",
         image: null, // No preview image available
-        pdf: "/certificates/Project Management Institute (PMI)®.pdf",
+        pdf: "https://drive.google.com/file/d/1B9hVgat9zQkvxRHuzfE-QWVJreZyZtus/view?usp=sharing",
         skills: ["Project Management", "Risk Management", "Team Leadership", "Agile Methodology"],
         category: "Project Management",
         color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
