@@ -234,7 +234,7 @@ const certificates: Certificate[] = [
   status: "Completed",
   description: "Completed the HP LIFE online course 'Strategic Planning', covering leading practices, methodologies, and tools in the field, exploring the benefits and challenges of a data-driven approach for businesses, and gaining knowledge about essential skills for a career in data science.",
   image: null,
-  pdf: "https://drive.google.com/file/d/12nsGgBLo5qqVFR4befz8YF_Eg3mIzKpC/view?usp=sharing", // Replace with actual certificate link
+  pdf: "https://drive.google.com/file/d/1UgFCRIyk0zddws6rwZWbfY7JhJxIXkwU/view?usp=sharing", // Replace with actual certificate link
   skills: ["Data Science", "Data Analytics", "Data-Driven Decision Making"],
   category: "Data Science",
   color: "bg-green-500/10 text-green-400 border-green-400/30",
@@ -242,13 +242,13 @@ const certificates: Certificate[] = [
 },
 {
   id: 16,
-  title: "Python",
-  issuer: "Cursa (by Thenewboston)",
+  title: " AI for Beginners",
+  issuer: "HP LIFE (HP Foundation)",
   date: "2024-07-05 to 2024-07-09",
   status: "Completed",
-  description: "Completed the 'Python' course on Cursa by Thenewboston, covering Python programming fundamentals and core concepts.",
+  description: "Completed the 'AI for Beginners' course on Cursa by Thenewboston, covering the fundamentals of artificial intelligence and its applications.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
+  pdf: "https://drive.google.com/file/d/12nsGgBLo5qqVFR4befz8YF_Eg3mIzKpC/view", // Replace with actual Google Drive or Cursa certificate link
   skills: ["Python", "Programming Fundamentals"],
   category: "Programming",
   color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
