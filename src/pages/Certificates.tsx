@@ -228,13 +228,13 @@ const certificates: Certificate[] = [
 },
 {
   id: 15,
-  title: "Data Science & Analytics",
+  title: "Strategic Planning",
   issuer: "HP LIFE (HP Foundation)",
   date: "2025-01-17",
   status: "Completed",
-  description: "Completed the HP LIFE online course 'Data Science & Analytics', covering leading practices, methodologies, and tools in the field, exploring the benefits and challenges of a data-driven approach for businesses, and gaining knowledge about essential skills for a career in data science.",
+  description: "Completed the HP LIFE online course 'Strategic Planning', covering leading practices, methodologies, and tools in the field, exploring the benefits and challenges of a data-driven approach for businesses, and gaining knowledge about essential skills for a career in data science.",
   image: null,
-  pdf: "https://drive.google.com/file/d/1tEw9ywyEcLsGl2N577sOM_t4-YAhFZd7/view?usp=sharing", // Replace with actual certificate link
+  pdf: "https://drive.google.com/file/d/12nsGgBLo5qqVFR4befz8YF_Eg3mIzKpC/view?usp=sharing", // Replace with actual certificate link
   skills: ["Data Science", "Data Analytics", "Data-Driven Decision Making"],
   category: "Data Science",
   color: "bg-green-500/10 text-green-400 border-green-400/30",
