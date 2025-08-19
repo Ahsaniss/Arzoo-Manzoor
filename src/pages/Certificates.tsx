@@ -297,7 +297,23 @@ const certificates: Certificate[] = [
   color: "bg-green-500/10 text-green-400 border-green-400/30",
   icon: Code,
   verify: "Main/certificate/12122410"
-}
+},
+{
+  id: 20,
+  title: "Microsoft Security Copilot",
+  issuer: "LinkedIn Learning",
+  date: "2025-07-28",
+  status: "Completed",
+  description: "Course completed by Arzoo Manzoor on Jul 28, 2025 at 09:23 AM UTC. Duration: 40 minutes. Covered key concepts of Microsoft Security Copilot with focus on Security and Incident Response.",
+  image: null, // Add preview image if available
+  pdf: "https://drive.google.com/file/d/1JckLLy9mMowNjKmzNtcsaUoZKHWutcON/view?usp=sharing", // Replace with actual certificate link
+  skills: ["Security", "Incident Response"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+},
+
+
 
 
 
