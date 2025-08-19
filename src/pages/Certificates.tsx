@@ -312,6 +312,20 @@ const certificates: Certificate[] = [
   color: "bg-red-500/10 text-red-400 border-red-400/30",
   icon: Shield
 },
+{
+  id: 21,
+  title: "Cybersecurity Digital Immune Systems (101 level)",
+  issuer: "Udemy",
+  date: "2025-03-01",
+  status: "Completed",
+  description: "Certificate of Completion for 'Cybersecurity Digital Immune Systems (101 level)' instructed by Dr. José Prabhu J and Arzoo Manzoor. Completed on March 1, 2025. Duration: 1 total hour.",
+  image: null, // Add preview image if available
+  pdf: "https://drive.google.com/file/d/1ISrScdVhvjYdv2Rr5ifuLLY8jbk1LX5g/view?usp=sharing", // Replace with actual certificate link
+  skills: ["Cybersecurity", "Digital Immune Systems", "IT Security"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+},
 
 
 
