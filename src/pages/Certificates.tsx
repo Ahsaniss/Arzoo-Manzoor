@@ -326,6 +326,20 @@ const certificates: Certificate[] = [
   color: "bg-red-500/10 text-red-400 border-red-400/30",
   icon: Shield
 },
+{
+  id: 22,
+  title: "Cyber Security",
+  issuer: "Cursa ",
+  date: "2025-02-14",
+  status: "Completed",
+  description: "Course completed by Arzoo Manzoor on Feb 14, 2025. Duration: 2 hours 07 minutes. Covered essential concepts of cybersecurity by Packethacks.",
+  image: null, // Add preview image if available
+  pdf: "https://drive.google.com/file/d/1tt_OtPyJ-5bufmXN-RWgx06RtSNrV04H/view?usp=sharing", // Replace with actual certificate link
+  skills: ["Cybersecurity", "Network Security", "Information Protection"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+},
 
 
 
