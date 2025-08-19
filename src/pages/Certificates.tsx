@@ -20,6 +20,7 @@ type Certificate = {
   category: string;
   color: string;
   icon: any;
+  verify?: string;
 };
 
 const certificates: Certificate[] = [
@@ -187,7 +188,7 @@ const certificates: Certificate[] = [
 {
   id: 12,
   title: "HTML by EJ Media",
-  issuer: "Cursa (by Packethacks)",
+  issuer: "Cursa",
   date: "2025-02-14",
   status: "Completed",
   description: "Completed the 'HTML by EJ Media' course on Cursa by Packethacks, gaining knowledge in core HTML concepts and practices.",
@@ -257,10 +258,10 @@ const certificates: Certificate[] = [
 {
   id: 17,
   title: "Python by Thenewboston",
-  issuer: "Cursa (by Yonsei University)",
+  issuer: "Cursa",
   date: "2025-06-18",
   status: "Completed",
-  description: "Completed the 'Python by Thenewboston' course on Cursa by Yonsei University, covering essential Python programming skills and concepts.",
+  description: "Completed the 'Python by Thenewboston' course on Cursa, covering essential Python programming skills and concepts.",
   image: null,
   pdf: "https://drive.google.com/file/d/1nO1-azcKIdySOZaxUqUeipdiVe-Zd_LL/view?usp=sharing", // Replace with actual Google Drive or Cursa certificate link
   skills: ["Python", "Programming Fundamentals", "Software Development"],
