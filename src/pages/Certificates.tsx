@@ -341,6 +341,35 @@ const certificates: Certificate[] = [
   icon: Shield
 },
 
+{
+  id: 23,
+  title: "Cyber Security Masterclass",
+  issuer: "cursa - INFOSEC TRAIN",
+  date: "2025-01-30",
+  status: "Completed",
+  description: "Certificate of Completion for 'Cyber Security Masterclass' by INFOSEC TRAIN. Completed by Arzoo Manzoor on January 30, 2025. Duration: 1 hour 36 minutes (From 01/27/2025 to 01/30/2025).",
+  image: null, // Add preview image if available
+  pdf: "https://drive.google.com/file/d/1JRea5vV9XSUgkmw3Rj-9iKO4XU-mlNlc/view?usp=sharing", // Replace with actual certificate link if available
+  skills: ["Cybersecurity", "Information Security", "IT Security"],
+  category: "Cybersecurity",
+  color: "bg-red-500/10 text-red-400 border-red-400/30",
+  icon: Shield
+},
+{
+  id: 24,
+  title: "Data Science & Analytics",
+  issuer: "HP LIFE - HP Foundation",
+  date: "2025-01-17",
+  status: "Completed",
+  description: "Certificate of Completion for 'Data Science & Analytics' from HP LIFE. Completed by Arzoo Manzoor on January 17, 2025. The course covered leading data science and analytics practices, methodologies, and tools, examined the benefits and challenges of a data-driven approach for businesses, and provided essential skills for pursuing a career in the field.",
+  image: null, // Add preview image if available
+  pdf: "https://drive.google.com/file/d/1ybC8Vz7VdL6zzm7FDaJMoPUivaBIgKpe/view?usp=sharing", // Replace with actual certificate link if available
+  skills: ["Data Science", "Analytics", "Business Intelligence", "Data-Driven Decision Making"],
+  category: "Data Science",
+  color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
+  icon: Database
+}
+
 
 
 
