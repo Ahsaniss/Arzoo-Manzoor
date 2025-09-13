@@ -80,12 +80,17 @@ const Navigation = () => {
             >
               Contact
             </Button>
-            <Link
-              to="/projects"
-              className="px-4 py-2 rounded hover:bg-primary/10 transition-colors"
-            >
-              Projects
-            </Link>
+            <li>
+              <button
+                onClick={() => {
+                  navigate("/projects");
+                  window.scrollTo({ top: 0, behavior: "smooth" }); // ensures scroll to top
+                }}
+                className="px-4 py-2 rounded hover:bg-primary/10 transition-colors"
+              >
+                Projects
+              </button>
+            </li>
           </div>
         </div>
       </div>
