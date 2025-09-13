@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { useLocation, useNavigate } from "react-router-dom"
+import { useLocation, useNavigate, Link } from "react-router-dom"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
@@ -80,6 +80,12 @@ const Navigation = () => {
             >
               Contact
             </Button>
+            <Link
+              to="/projects"
+              className="px-4 py-2 rounded hover:bg-primary/10 transition-colors"
+            >
+              Projects
+            </Link>
           </div>
         </div>
       </div>
