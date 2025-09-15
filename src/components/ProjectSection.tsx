@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
-    title: "Cybersecurity Dashboard",
-    image: "https://via.placeholder.com/400x220?text=Cybersecurity+Dashboard",
-    link: "https://example.com/project1",
-    description: "A modern web app featuring threat detection, real-time monitoring, and vulnerability assessment.",
+    title: "Korean Culture Website",
+    image: "/src/assets/Capture.PNG",
+    link: "https://korean-culture-sable.vercel.app/",
+    description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
   {
     title: "Portfolio Website",
-    image: "https://via.placeholder.com/400x220?text=Portfolio+Website",
+    image: "",
     link: "https://example.com/project2",
     description: "A responsive portfolio website built with React and Tailwind CSS, showcasing professional work.",
   },
