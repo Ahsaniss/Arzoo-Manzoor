@@ -10,7 +10,7 @@ const projects = [
   },
   {
    title: "playful-access-adventures",
-   image: "/src/assets/1.PNG",
+   image: "https://freeimage.host/i/KRvRdHF",
    link: "https://playful-access-adventures.vercel.app/",
    description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
   },
