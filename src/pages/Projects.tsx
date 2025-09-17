@@ -26,16 +26,16 @@ const projects = [
     description: "A real-time legal assistant powered by AI and React, supporting multiple rooms.",
   },
   {
-    title: "Project Five",
-    image: "https://via.placeholder.com/400x220?text=Project+5",
-    link: "https://example.com/project5",
-    description: "A weather dashboard that fetches live data from an API and displays it beautifully.",
+    title: "Store Management System",
+    image: "/src/assets/3.PNG",
+    link: "https://simple-store-sales.lovable.app",
+    description: "A simple store management system built with React and Node.js.",
   },
   {
-    title: "Project Six",
-    image: "https://via.placeholder.com/400x220?text=Project+6",
-    link: "https://example.com/project6",
-    description: "A to-do list app with drag-and-drop, persistent storage, and a clean, modern UI.",
+    title: "Delight Your Mind",
+    image: "/src/assets/5.PNG",
+    link: "https://delight-your-mind.vercel.app/",
+    description: "A mental wellness website offering resources and activities to promote mental health.",
   },
 ];
 
