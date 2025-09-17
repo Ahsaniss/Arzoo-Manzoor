@@ -20,10 +20,10 @@ const projects = [
     description: "A platform for students to access and share past exam papers, built with Node.js and Express.",
   },
   {
-    title: "Project Four",
-    image: "https://via.placeholder.com/400x220?text=Project+4",
-    link: "https://example.com/project4",
-    description: "A real-time chat application using Socket.io and React, supporting multiple rooms.",
+    title: "Advocaid Legal Assistant",
+    image: "/src/assets/4.PNG",
+    link: "https://lex-ai-assistant.lovable.app",
+    description: "A real-time legal assistant powered by AI and React, supporting multiple rooms.",
   },
   {
     title: "Project Five",
