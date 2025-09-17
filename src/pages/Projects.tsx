@@ -3,37 +3,37 @@ import React from "react";
 const projects = [
     {
     title: "Korean Culture Website",
-    image: "/src/assets/Capture.PNG",
+    image: "/assets/Capture.PNG",
     link: "https://korean-culture-sable.vercel.app/",
     description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
   {
     title: "playful-access-adventures",
-    image: "/src/assets/1.PNG",
+    image: "/assets/1.PNG",
     link: "https://playful-access-adventures.vercel.app/",
     description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
   },
   {
     title: "Your University's Past Papers Hub",
-    image: "/src/assets/2.PNG",
+    image: "/assets/2.PNG",
     link: "https://univ-vault-hub.lovable.app/",
     description: "A platform for students to access and share past exam papers, built with Node.js and Express.",
   },
   {
     title: "Advocaid Legal Assistant",
-    image: "/src/assets/4.PNG",
+    image: "/assets/4.PNG",
     link: "https://lex-ai-assistant.lovable.app",
     description: "A real-time legal assistant powered by AI and React, supporting multiple rooms.",
   },
   {
     title: "Store Management System",
-    image: "/src/assets/3.PNG",
+    image: "/assets/3.PNG",
     link: "https://simple-store-sales.lovable.app",
     description: "A simple store management system built with React and Node.js.",
   },
   {
     title: "Delight Your Mind",
-    image: "/src/assets/5.PNG",
+    image: "/assets/5.PNG",
     link: "https://delight-your-mind.vercel.app/",
     description: "A mental wellness website offering resources and activities to promote mental health.",
   },
