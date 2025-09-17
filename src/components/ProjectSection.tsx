@@ -3,22 +3,22 @@ import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
-   title: "Korean Culture Website",
-   image: "/assets/Capture.PNG",
-   link: "https://korean-culture-sable.vercel.app/",
-   description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
+    title: "Korean Culture Website",
+    image: "/assets/Capture.PNG", // This will work after moving to public/assets/
+    link: "https://korean-culture-sable.vercel.app/",
+    description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
   {
-   title: "playful-access-adventures",
-   image: "https://freeimage.host/i/KRvRdHF",
-   link: "https://playful-access-adventures.vercel.app/",
-   description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
+    title: "Playful Access Adventures",
+    image: "https://iili.io/KRvRdHF.png", // Fixed the external image URL
+    link: "https://playful-access-adventures.vercel.app/",
+    description: "A web application for exploring playful and accessible adventures, built with React and modern CSS.",
   },
   {
-   title: "Your University's Past Papers Hub",
-   image: "/assets/2.PNG",
-   link: "https://univ-vault-hub.lovable.app/",
-   description: "A platform for students to access and share past exam papers, built with Node.js and Express.",
+    title: "University Past Papers Hub",
+    image: "/assets/2.PNG", // This will work after moving to public/assets/
+    link: "https://univ-vault-hub.lovable.app/",
+    description: "A comprehensive platform for students to access and share past exam papers with advanced search features.",
   },
 ];
 
@@ -35,12 +35,17 @@ const ProjectSection: React.FC = () => {
               key={idx}
               className="bg-card rounded-xl shadow-lg border border-border hover:shadow-2xl transition-shadow duration-300 flex flex-col overflow-hidden group"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
-                loading="lazy"
-              />
+              <div className="w-full h-40 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  onError={(e) => {
+                    e.currentTarget.src = "https://via.placeholder.com/400x220?text=Project+Image";
+                  }}
+                />
+              </div>
               <div className="p-4 flex flex-col flex-1">
                 <h3 className="text-lg font-semibold mb-2 text-foreground">{project.title}</h3>
                 <p className="text-muted-foreground mb-4 flex-1 text-sm">{project.description}</p>
