@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const projects = [
   {
     title: "Korean Culture Website",
-    image: "https://freeimage.host/i/KRLCx6J", // This will work after moving to public/assets/
+    image: "https://iili.io/KRLCx6J.md.png", // This will work after moving to public/assets/
     link: "https://korean-culture-sable.vercel.app/",
     description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
