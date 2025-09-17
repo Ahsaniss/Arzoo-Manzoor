@@ -9,16 +9,16 @@ const projects = [
     description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
   {
-    title: "Portfolio Website",
-    image: "",
-    link: "https://example.com/project2",
-    description: "A responsive portfolio website built with React and Tailwind CSS, showcasing professional work.",
+    title: "playful-access-adventures",
+    image: "/src/assets/1.PNG",
+    link: "https://playful-access-adventures.vercel.app/",
+    description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
   },
   {
-    title: "Security API",
-    image: "https://via.placeholder.com/400x220?text=Security+API",
-    link: "https://example.com/project3",
-    description: "A RESTful API for security management, built with Node.js and Express, featuring JWT authentication.",
+    title: "Your University's Past Papers Hub",
+    image: "/src/assets/2.PNG",
+    link: "https://univ-vault-hub.lovable.app/",
+    description: "A platform for students to access and share past exam papers, built with Node.js and Express.",
   },
 ];
 
