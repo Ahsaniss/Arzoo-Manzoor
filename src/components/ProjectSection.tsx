@@ -2,21 +2,21 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const projects = [
-  {
+   {
     title: "Korean Culture Website",
-    image: "/src/assets/Capture.PNG",
+    image: "/assets/Capture.PNG",
     link: "https://korean-culture-sable.vercel.app/",
     description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
   {
     title: "playful-access-adventures",
-    image: "/src/assets/1.PNG",
+    image: "/assets/1.PNG",
     link: "https://playful-access-adventures.vercel.app/",
     description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
   },
   {
     title: "Your University's Past Papers Hub",
-    image: "/src/assets/2.PNG",
+    image: "/assets/2.PNG",
     link: "https://univ-vault-hub.lovable.app/",
     description: "A platform for students to access and share past exam papers, built with Node.js and Express.",
   },
