@@ -3,11 +3,11 @@ import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
-    title: "Korean Culture Website",
-    image: "https://iili.io/KRLCx6J.th.png", // This will work after moving to public/assets/
-    link: "https://korean-culture-sable.vercel.app/",
-    description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
-  },
+  title: "Korean Culture Website",
+  image: "https://iili.io/KRLCx6J.png", // ✅ direct image URL
+  link: "https://korean-culture-sable.vercel.app/",
+  description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
+},
   {
     title: "Playful Access Adventures",
     image: "https://iili.io/KRvRdHF.png", // Fixed the external image URL
