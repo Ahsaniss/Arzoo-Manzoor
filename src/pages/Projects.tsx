@@ -1,23 +1,23 @@
 import React from "react";
 
 const projects = [
-  {
-    title: "Project One",
-    image: "https://via.placeholder.com/400x220?text=Project+1",
-    link: "https://example.com/project1",
-    description: "A modern web app featuring authentication, real-time updates, and a responsive UI.",
+    {
+    title: "Korean Culture Website",
+    image: "/src/assets/Capture.PNG",
+    link: "https://korean-culture-sable.vercel.app/",
+    description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
   {
-    title: "Project Two",
-    image: "https://via.placeholder.com/400x220?text=Project+2",
-    link: "https://example.com/project2",
-    description: "A portfolio website built with React and Tailwind CSS, showcasing interactive components.",
+    title: "playful-access-adventures",
+    image: "/src/assets/1.PNG",
+    link: "https://playful-access-adventures.vercel.app/",
+    description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
   },
   {
-    title: "Project Three",
-    image: "https://via.placeholder.com/400x220?text=Project+3",
-    link: "https://example.com/project3",
-    description: "A RESTful API for managing tasks, built with Node.js and Express, featuring JWT auth.",
+    title: "Your University's Past Papers Hub",
+    image: "/src/assets/2.PNG",
+    link: "https://univ-vault-hub.lovable.app/",
+    description: "A platform for students to access and share past exam papers, built with Node.js and Express.",
   },
   {
     title: "Project Four",
