@@ -15,10 +15,10 @@ const projects = [
     description: "A web application for exploring playful and accessible adventures, built with React and modern CSS.",
   },
   {
-    title: "University Past Papers Hub",
-    image: "/assets/2.PNG", // This will work after moving to public/assets/
-    link: "https://univ-vault-hub.lovable.app/",
-    description: "A comprehensive platform for students to access and share past exam papers with advanced search features.",
+    title: "WINE & DINE",
+    image: "https://iili.io/K5wnjmG.png", // This will work after moving to public/assets/
+    link: "https://henry2k24.github.io/WINE-and-DINE/",
+    description: "A restaurant website template featuring a modern design, menu showcase, and reservation system.",
   },
 ];
 
