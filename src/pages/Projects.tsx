@@ -7,11 +7,11 @@ const projects = [
     link: "https://korean-culture-sable.vercel.app/",
     description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
   },
-  {
-    title: "playful-access-adventures",
-    image: "/assets/1.PNG",
-    link: "https://playful-access-adventures.vercel.app/",
-    description: "A web application for exploring playful and accessible adventures, built with React and CSS.",
+   {
+    title: "WINE & DINE",
+    image: "https://iili.io/K5wnjmG.png", // This will work after moving to public/assets/
+    link: "https://henry2k24.github.io/WINE-and-DINE/",
+    description: "A restaurant website template featuring a modern design, menu showcase, and reservation system.",
   },
   {
     title: "Your University's Past Papers Hub",
