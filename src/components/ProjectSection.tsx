@@ -9,10 +9,10 @@ const projects = [
   description: "A cultural website showcasing Korean traditions, history, and modern culture with interactive features.",
 },
   {
-    title: "Playful Access Adventures",
-    image: "https://iili.io/KRvRdHF.png", // Fixed the external image URL
-    link: "https://playful-access-adventures.vercel.app/",
-    description: "A web application for exploring playful and accessible adventures, built with React and modern CSS.",
+    title: "QR-code Generator",
+    image: "https://iili.io/K5kzbyB.png",
+    link: "https://qr-code-setup.netlify.app/",
+    description: "A QR-code generator built with React, allowing users to create and customize QR codes easily.",
   },
   {
     title: "WINE & DINE",
