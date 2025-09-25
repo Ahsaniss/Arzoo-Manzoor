@@ -24,20 +24,20 @@ type Certificate = {
 };
 
 const certificates: Certificate[] = [
-    {
-        id: 1,
-        title: "Cybersecurity Foundations",
-        issuer: "LinkedIn",
-        date: "2025",
-        status: "Completed",
-        description: "Comprehensive cybersecurity fundamentals covering network security, compliance, operational security, threats and vulnerabilities.",
-        image: null, // Direct image URL
-        pdf: "https://drive.google.com/file/d/1HQ1CXV7QFXK5XWN3SLQLBKH_IKVWEeGb/view?usp=sharing",
-        skills: ["Network Security", "Risk Assessment", "Incident Response", "Cybersecurity Fundamentals"],
-        category: "Cybersecurity",
-        color: "bg-red-500/10 text-red-400 border-red-400/30",
-        icon: Shield
-    },
+   {
+  id: 1,
+  title: "JavaScript Internship",
+  issuer: "INTERWARE (Pvt.) Ltd.",
+  date: "2025-02-01 to 2025-04-30",
+  status: "Completed",
+  description: "Served as a JavaScript Intern, developing and enhancing front-end features using modern JavaScript frameworks, solving complex problems, collaborating with cross-functional teams, and consistently delivering high-quality results.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1SEOPkqhJeK1vJNKxv-0wHVEOume0ztIe/view?usp=sharing", // Replace with actual file link if uploaded
+  skills: ["JavaScript", "Front-End Development", "Problem Solving", "Team Collaboration"],
+  category: "Professional Experience",
+  color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
+  icon: Briefcase
+},
     {
         id: 2,
         title: "Cybersecurity Awareness: Cybersecurity Terminology",
@@ -157,20 +157,21 @@ const certificates: Certificate[] = [
   color: "bg-red-500/10 text-red-400 border-red-400/30",
   icon: Shield
 },
-{
-  id: 10,
-  title: "JavaScript Internship",
-  issuer: "INTERWARE (Pvt.) Ltd.",
-  date: "2025-02-01 to 2025-04-30",
-  status: "Completed",
-  description: "Served as a JavaScript Intern, developing and enhancing front-end features using modern JavaScript frameworks, solving complex problems, collaborating with cross-functional teams, and consistently delivering high-quality results.",
-  image: null,
-  pdf: "https://drive.google.com/file/d/1SEOPkqhJeK1vJNKxv-0wHVEOume0ztIe/view?usp=sharing", // Replace with actual file link if uploaded
-  skills: ["JavaScript", "Front-End Development", "Problem Solving", "Team Collaboration"],
-  category: "Professional Experience",
-  color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
-  icon: Briefcase
-},
+
+ {
+        id: 1,
+        title: "Cybersecurity Foundations",
+        issuer: "LinkedIn",
+        date: "2025",
+        status: "Completed",
+        description: "Comprehensive cybersecurity fundamentals covering network security, compliance, operational security, threats and vulnerabilities.",
+        image: null, // Direct image URL
+        pdf: "https://drive.google.com/file/d/1HQ1CXV7QFXK5XWN3SLQLBKH_IKVWEeGb/view?usp=sharing",
+        skills: ["Network Security", "Risk Assessment", "Incident Response", "Cybersecurity Fundamentals"],
+        category: "Cybersecurity",
+        color: "bg-red-500/10 text-red-400 border-red-400/30",
+        icon: Shield
+    },
 {
   id: 11,
   title: "R Programming for Data Science",
