@@ -369,6 +369,20 @@ const certificates: Certificate[] = [
   category: "Data Science",
   color: "bg-blue-500/10 text-blue-400 border-blue-400/30",
   icon: Database
+},
+ {
+  id: 25,
+  title: "Cyber Security Internship",
+  issuer: "CodeAlpha",
+  date: "23rd October 2025",
+  status: "Completed",
+  description: "Served as a Cyber Security Intern, developing and enhancing security features using modern security frameworks, solving complex problems, collaborating with cross-functional teams, and consistently delivering high-quality results.",
+  image: null,
+  pdf: "https://drive.google.com/file/d/1EjRZDiT-RQce-C8y78sO74JmaS00IA8y/view?usp=sharing", // Replace with actual file link if uploaded
+  skills: ["Cyber Security", "Security Frameworks", "Problem Solving", "Team Collaboration"],
+  category: "Professional Experience",
+  color: "bg-yellow-500/10 text-yellow-400 border-yellow-400/30",
+  icon: Briefcase
 }
 
 
