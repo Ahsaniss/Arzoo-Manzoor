@@ -48,12 +48,20 @@ const HeroSection = () => {
               >
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a 
+                <a 
                 href="mailto:arzoomanzoor25@gmail.com"
                 className="text-accent hover:text-primary transition-colors"
-              >
+                >
                 <Mail className="h-6 w-6" />
-              </a>
+                </a>
+                <a
+                href="https://github.com/arzoomanzoor25"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-primary transition-colors"
+                >
+                <Github className="h-6 w-6" />
+                </a>
               
             </div>
           </div>
