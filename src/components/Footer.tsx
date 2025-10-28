@@ -24,6 +24,7 @@ const Footer = () => {
               >
                 arzoomanzoor25@gmail.com
               </a>
+              
             </p>
           </div>
 
@@ -56,6 +57,14 @@ const Footer = () => {
               >
                 <Linkedin className="h-6 w-6" />
               </a>
+               <a
+                href="https://github.com/arzoomanzoor25"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-primary transition-colors"
+                >
+                <Github className="h-6 w-6" />
+                </a>
               <a 
                 href="mailto:arzoomanzoor25@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
